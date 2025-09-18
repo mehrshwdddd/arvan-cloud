@@ -22,13 +22,13 @@ export default function CloudProductsSection() {
   ];
 
   return (
-    <section className="bg-gray-50 px-6">
+    <div className="bg-gray-50 px-6">
       <div className="container mx-auto flex flex-col lg:flex-row items-start gap-12">
         <div className="flex-1 flex justify-center">
           <img
             src={activeImage}
             alt="active image"
-            className="w-full h-full mt-64 mb-10 max-w-xl shadow-xl rounded-2xl transition-all duration-300"
+            className="w-full h-full mt-64 mb-10 shadow-xl rounded-2xl transition-all duration-300"
           />
         </div>
         <div className="flex-1 flex flex-col items-end space-y-6 text-right">
@@ -78,6 +78,6 @@ export default function CloudProductsSection() {
           </button>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

@@ -3,7 +3,7 @@ import { IoMdArrowBack } from "react-icons/io";
 
 export default function Hero1() {
   return (
-    <section className="relative">
+    <div className="relative">
       <div className="relative container mx-auto py-32 px-6 grid lg:grid-cols-2 gap-12 items-center">
         <div></div>
         <div dir="rtl" className="space-y-6 text-right p-8">
@@ -37,6 +37,6 @@ export default function Hero1() {
           </button>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

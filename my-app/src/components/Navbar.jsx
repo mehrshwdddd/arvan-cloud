@@ -5,7 +5,7 @@ import { TbWorld } from "react-icons/tb";
 import { IoIosArrowDown } from "react-icons/io";
 export default function Nvabar() {
   return (
-    <div className=" sticky">
+    <div className=" fixed top-0 left-0 w-full bg-white shadow z-50 pb-3">
       <div dir="rtl" className=" flex items-center justify-around p-5   ">
         <div>
           <img src={logo} alt="logo" width={150} height={150} />
